@@ -1,0 +1,19 @@
+- Minimizing HTTP Requests.
+- Adding Expires or Cache control header resulting in loading most of the contents in browser from cache rather than reloading.
+- Using Gzip/deflate compression for static and dynamic contents
+- Avoiding inline CSS. so as to load initial page faster
+- Using CSS on the top of the page
+- Avoiding inline javascript code.
+- Putting java scripts at the bottom of the pages.
+- Compressing JavaScript and CSS files.
+- Building reusable components viz. CSS, java scripts, routines, etc. to maximize the reusability and minimize the code size.
+- Cache the static contents viz. images, java scripts, CSS, etc. or deploy them on separate server(cookie less) for better performance (It reduces the waiting period of user and can start his/her work while static content gets loaded)
+- Images are taking at least 80% of the total page load time. We optimize image size and using lazy loading concepts (on demand loading) for images so that will not block required content. We are reducing number of DOM elements in pages.
+- Using minimum DOM elements in web pages.
+- Avoiding unnecessary server responses viz. “404 Page not found”.
+- URLs are meaningful & user friendly
+- Explanatory HTML page titles
+- Clear, descriptive Major headings
+- Using tags like Emphasis (bold, etc.) carefully
+- Avoiding @Import tag for CSS anywhere in website.
+- Following W3C standards for HTML and CSS.
